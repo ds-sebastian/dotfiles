@@ -1,0 +1,42 @@
+# System-specific
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Editor backups
+*.bak
+*.tmp
+*~
+
+# Build directories
+bin/
+obj/
+build/
+tmp/
+
+# Dependencies
+node_modules/
+
+# SSH configuration
+.ssh/config
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+
+# GnuPG files
+.gnupg/
+
+# Custom shell history files
+.zsh_history
+.bash_history
+.fish_history
+
+# Private scripts
+scripts/private/
+
+# Specific personal files
+.private_config
+.secrets
