@@ -1,0 +1,69 @@
+{
+
+    "editor.inlineSuggest.enabled": true,
+    "editor.fontFamily": "'CaskaydiaCove NFM', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.fontWeight": "400",
+    "editor.cursorBlinking": "phase",
+
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Monokai Pro",
+    "workbench.startupEditor": "none",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.allowForcePush": true,
+
+    "explorer.confirmDragAndDrop": false,
+
+    "remote.SSH.configFile": "~/.ssh/config",
+
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+
+    "terminal.integrated.fontFamily": "'CaskaydiaCove NFM', monospace",
+    "terminal.integrated.fontSize": 16,
+
+    "jupyter.askForKernelRestart": false,
+
+    "redhat.telemetry.enabled": false,
+    "notebook.output.textLineLimit": 100,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "win-ca.inject": "append",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "projectManager.git.baseFolders": [
+        "/home/sebastian/Code",
+        "~/Code"
+    ],
+    "remote.SSH.connectTimeout": 60,
+    "remote.SSH.showLoginTerminal": true,
+    "remote.SSH.useExecServer": true,
+    "terminal.integrated.env.osx": {
+        "CW_NEW_SESSION": "1"
+    },
+    "editor.accessibilitySupport": "off",
+
+}
